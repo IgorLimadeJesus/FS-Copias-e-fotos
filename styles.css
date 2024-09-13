@@ -1,0 +1,42 @@
+*
+{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    padding-left:150px;
+    padding-right: 8px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo
+{
+    padding-bottom: 5%;
+}
+
+.text
+{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    line-height: 20px;
+    max-width: 500px;
+    font-family: Nerko One;
+}
