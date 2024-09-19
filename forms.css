@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Light';
+    src: url('fonts/futuralight.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Light', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+section h2{
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label{
+    font-size: 17px;
+    margin: 4px;
+}
+
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    color: black;
+    border-radius: 20px;
+    border-color: transparent;
+    margin-bottom: 20px;
+    transition: 2.5;
+    background-color: cyan;
+    border-radius: 20px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+

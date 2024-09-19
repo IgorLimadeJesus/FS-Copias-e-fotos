@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Light';
+    src: url('fonts/futuralight.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *
 {
     margin: 0 auto;
@@ -22,8 +29,25 @@ nav ul{
 }
 
 a{
+    font-family: 'Light', sans-serif;
     text-decoration: none;
     color: black;
+    position: relative;
+}
+
+a::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+a:hover::after {
+    width: 100%; 
 }
 
 .titulo
@@ -31,12 +55,18 @@ a{
     padding-bottom: 5%;
 }
 
-.text
+.text-1
 {
     position: absolute;
     left: 40%;
     top: 50%;
     line-height: 20px;
     max-width: 500px;
-    font-family: Nerko One;
+    font-family: 'Light', sans-serif;
+}
+
+.polaroid{
+    position: absolute;
+    top: 40%;
+    padding-left: 2%;
 }
