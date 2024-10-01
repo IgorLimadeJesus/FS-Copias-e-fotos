@@ -48,6 +48,7 @@ a::after{
 }
 a:hover::after {
     width: 100%; 
+    
 }
 
 .titulo
@@ -60,6 +61,46 @@ a:hover::after {
     position: absolute;
     left: 40%;
     top: 50%;
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Light', sans-serif;
+}
+
+.text-2
+{
+    position: absolute;
+    left: 20%;
+    top: 105%;
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Light', sans-serif;
+}
+
+.text-3
+{
+    position: absolute;
+    left: 40%;
+    top: 150%;
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Light', sans-serif;
+}
+
+.text-4
+{
+    position: absolute;
+    left: 20%;
+    top: 200%;
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Light', sans-serif;
+}
+
+.text-5
+{
+    position: absolute;
+    left: 40%;
+    top: 250%;
     line-height: 20px;
     max-width: 500px;
     font-family: 'Light', sans-serif;

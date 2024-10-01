@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="forms.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/forms.css">
+    <title>Impressão</title>
 </head>
 <body>
+
     <section>
         <h2>Enviar Impressão</h2>
-        <form action="https://api.staticforms.xyz/submit" method="post">
+        <form action="https://api.staticforms.xyz/submit" method="POST" enctype="multipart/form-data">
             <label>Nome</label>
             <input type="text" name="name" placeholder="Digite seu Nome" autocomplete="off" required>
             <label>Telefone</label>
@@ -23,7 +24,6 @@
             <button type="submit">Enviar</button>
             <input type="hidden" name="redirectTo" value="http://127.0.0.1:3000/enviado.html">
 
-            <input type="hidden" name="accessKey" value="f746a3a1-f297-4bbd-b040-8961bbb242ba">
         </form>
     </section>
 </body>
